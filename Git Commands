@@ -27,3 +27,11 @@ Direct ga mirror push cheyyachu:
 git clone --mirror https://github.com/SaikumarBandigi/SpringBootJune.git
 cd SpringBootJune.git
 git push --mirror https://github.com/your-username/springboot-project.git
+======================================================================
+  200  git init
+  201  git status
+  202  git add .
+  203  git commit -m "Springbootjun project in linux"
+  204  git push -u origin main
+  205  git pull origin main --rebase
+  206  git push origin main
