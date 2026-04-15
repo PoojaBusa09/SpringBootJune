@@ -1,0 +1,29 @@
+✅ Method: Clone → Change Remote → Push
+
+1️⃣ Original repo clone cheyyandi
+git clone https://github.com/SaikumarBandigi/SpringBootJune.git
+cd SpringBootJune
+2️⃣ Current remote check cheyyandi
+git remote -v
+
+👉 Output lo original repo untundi
+
+3️⃣ Mee GitHub lo new empty repo create cheyyandi
+
+Example:
+👉 https://github.com/your-username/springboot-project
+
+4️⃣ Remote change cheyyandi (important step)
+git remote remove origin
+git remote add origin https://github.com/your-username/springboot-project.git
+5️⃣ Push to your GitHub
+git branch -M main
+git push -u origin main
+
+🔥 Alternative (Single Command Method)
+
+Direct ga mirror push cheyyachu:
+
+git clone --mirror https://github.com/SaikumarBandigi/SpringBootJune.git
+cd SpringBootJune.git
+git push --mirror https://github.com/your-username/springboot-project.git
